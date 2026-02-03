@@ -1,10 +1,17 @@
 import Layout from "./components/Layout";
+import Hero from "./components/Hero";
 
-export default function App() {
-  return (
-    <Layout>
-      <h1 className="text-2xl font-bold">Portfolio - Adrian Jacobsen Lund</h1>
-      <h2 className="text-xl mt-4">Computer Science student @ NTNU</h2>
-    </Layout>
-  )
-}
+  export default function App() {
+    return (
+      <Layout>
+        <Hero
+        name="Adrian Jacobsen Lund"
+        role="Computer Science student @ NTNU"
+        tagline="I build practical software with clean UI and a bit of ML."
+        githubUrl="https://github.com/adrianjlundd"
+        linkedinUrl="https://www.linkedin.com/in/adrianjlund/"
+        />
+        
+      </Layout>
+    )
+  }
