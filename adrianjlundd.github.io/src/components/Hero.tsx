@@ -30,15 +30,15 @@ const Hero: React.FC<HeroProps> = ({
       </div>
 
       <div className="relative mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28">
-        <div className="grid items-center gap-10 lg:grid-cols-12">
+        <div className="grid items-center gap-10 lg:grid-cols-12 lg:justify-center">
           {/* Text */}
-          <div className="lg:col-span-7">
+          <div className="lg:col-span-7 lg:mx-auto">
             <p className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-sm text-white/80">
               <span className="h-2 w-2 rounded-full bg-emerald-400" />
               Open for internships / projects
             </p>
 
-            <h1 className="mt-4 text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            <h1 className="mt-4 text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-6xl whitespace-nowrap">
               {name}
             </h1>
 
@@ -93,45 +93,9 @@ const Hero: React.FC<HeroProps> = ({
             </div>
           </div>
 
-          {/* Right-side card / visual */}
-          <div className="lg:col-span-5">
-            <div className="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-[0_0_0_1px_rgba(255,255,255,0.02)]">
-              <p className="text-sm font-medium text-white/80">Quick snapshot</p>
-
-              <dl className="mt-4 space-y-4">
-                <div className="flex items-start justify-between gap-4">
-                  <dt className="text-sm text-white/60">Focus</dt>
-                  <dd className="text-sm text-white/85">
-                    Frontend • ML • Product
-                  </dd>
-                </div>
-
-                <div className="flex items-start justify-between gap-4">
-                  <dt className="text-sm text-white/60">Tech</dt>
-                  <dd className="text-sm text-white/85">
-                    TypeScript • React • Tailwind
-                  </dd>
-                </div>
-
-                <div className="flex items-start justify-between gap-4">
-                  <dt className="text-sm text-white/60">Currently</dt>
-                  <dd className="text-sm text-white/85">
-                    Building & shipping student projects
-                  </dd>
-                </div>
-              </dl>
-
-              <div className="mt-6 rounded-xl border border-white/10 bg-black/20 p-4">
-                <p className="text-xs uppercase tracking-wide text-white/50">
-                  Tip
-                </p>
-                <p className="mt-1 text-sm text-white/75">
-                  Keep this short—2–3 lines max. The buttons should be visible
-                  without scrolling on most screens.
-                </p>
-              </div>
-            </div>
-          </div>
+          
+            
+          
         </div>
       </div>
     </section>
