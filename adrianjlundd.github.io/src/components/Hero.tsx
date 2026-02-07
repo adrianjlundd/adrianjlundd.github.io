@@ -33,11 +33,7 @@ const Hero: React.FC<HeroProps> = ({
         <div className="grid items-center gap-10 lg:grid-cols-12 lg:justify-center">
           {/* Text */}
           <div className="lg:col-span-7 lg:mx-auto">
-            <p className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-sm text-white/80">
-              <span className="h-2 w-2 rounded-full bg-emerald-400" />
-              Open for internships / projects
-            </p>
-
+            
             <h1 className="mt-4 text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-6xl whitespace-nowrap">
               {name}
             </h1>
