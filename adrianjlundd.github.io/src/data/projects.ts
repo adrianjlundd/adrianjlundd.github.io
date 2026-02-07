@@ -15,9 +15,9 @@ export const projects: Project[] = [
   {
     title: "TV2 Editorial ML",
     description:
-      "Machine learning models for predicting article performance using time series and embeddings.",
+      " a collaborative project between Cogito and TV2, leveraging historical data and machine learning to support better editorial decision-making. This involves time series forecasting, anomaly detection, clustering algorithms, and image and text embeddings.",
     tech: ["Python", "scikit-learn", "Pandas", "Embeddings"],
-    links: [{ label: "GitHub", href: "https://example.com" }],
+    links: [{ label: "About the project", href: "https://www.cogito-ntnu.no/projects/tv2xcogito" }],
   },
   
   {
@@ -25,7 +25,7 @@ export const projects: Project[] = [
     title: "TV2 Editorial ML",
     description:
       "An interactive Tic Tac Toe game controlled entirely by hand gestures, built with Python, OpenCV, MediaPipe, and cvzone.",
-    tech: ["Python", "scikit-learn", "CVzone","MediaPipe", "OpenCV"],
+    tech: ["Python", "scikit-learn", "CVzone","MediaPipe"],
     links: [{ label: "GitHub", href: "https://github.com/adrianjlundd/tic-tac-toe-computer-vision-AR" }],
   },
 

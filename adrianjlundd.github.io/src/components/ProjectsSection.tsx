@@ -6,7 +6,7 @@ export default function ProjectsSection() {
   return (
     <section id="projects" className="mx-auto max-w-5xl px-4 py-20">
       <h2 className="text-2xl font-semibold tracking-tight text-white">
-        Projects
+        Selected Projects
       </h2>
       <p className="mt-2 text-white/60">
         Selected work—shipping-focused and clean implementations.
